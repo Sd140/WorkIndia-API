@@ -1,0 +1,51 @@
+
+.App {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+}
+
+.column {
+  flex: 1;
+  padding: 35px;
+  width: 334px;
+  height: 707px;
+  top: 65px;
+  
+}
+
+.box {
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  padding: 15px;
+  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 334px;
+  height: 120px;
+  top: 68px;
+
+}
+.box ul li img {
+  margin-right: 5px;
+}
+.box ul li{
+  font-size: 14px;
+}
+.box h3 {
+  margin-top: 10px;
+  border-bottom: 1px solid grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height:  39px;
+  text-align: left;
+  /* margin-bottom: 50px; */
+  /* border-bottom: 1px solid grey; */
+}
+
